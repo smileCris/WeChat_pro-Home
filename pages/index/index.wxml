@@ -1,0 +1,25 @@
+<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">  
+  <block wx:for="{{imgUrls}}" wx:key='{{imgUrls.id}}'>  
+    <swiper-item>   
+      <image src="{{item.src}}" class="slide-image" width="355" height="150"/>  
+    </swiper-item>  
+  </block>  
+</swiper>  
+<view class='main'>
+  <view class='picbox'>
+    <text>空间美图</text>
+    <view class='pic'>
+      <image src='https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=986835383,1242247635&fm=27&gp=0.jpg'></image>
+      <image src='https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3919044676,464741141&fm=27&gp=0.jpg'></image>
+      <image src='https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2367572167,22694796&fm=27&gp=0.jpg'></image>
+    </view>
+  </view>
+  <view class='listbox'>
+    <text>猜你喜欢</text>
+    <view wx:for='{{List}}' wx:key='{{List.id}}' class='list'>
+      <image src='{{item.img}}'></image>
+      <text>{{item.txt}}</text>
+      <view class='blank'></view>
+    </view>
+  </view>
+</view>

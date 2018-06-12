@@ -1,0 +1,8 @@
+<!--pages/pic/index.wxml-->
+<view class='main'>
+  <view class='box' wx:for='{{imgList}}' wx:key='{{imgList.id}}'>
+    <image src='{{item.img}}' bindtap='previewImage'></image>
+    <text class='bot'>{{item.txt}}</text>
+  </view>
+</view>
+ 

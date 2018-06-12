@@ -1,0 +1,14 @@
+/* pages/list/list.wxss */
+.contain {
+  margin: 2rem;
+}
+.section {
+  display: flex;
+  flex-direction: wrap;
+  line-height: 2.6rem;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+}
+.blank {
+  width: 15%;
+}

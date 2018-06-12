@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pic/index",
+    "pages/list/list"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "E滁州家居",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/tab1.png",
+        "selectedIconPath": "images/tab11.png"
+      },
+      {
+        "pagePath": "pages/pic/index",
+        "text": "图库",
+        "iconPath": "images/tab2.png",
+        "selectedIconPath": "images/tab22.png"
+      },
+      {
+        "pagePath": "pages/list/list",
+        "text": "预约",
+        "iconPath": "images/tab3.png",
+        "selectedIconPath": "images/tab33.png"
+      }
+    ]
+  },
+  "debug": true
+}
